@@ -1,0 +1,761 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Mulish&family=Orbitron&family=Poppins&family=Rubik&display=swap");
+
+* {
+  marg: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+body {
+  font-family: "Rubik";
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0b132a;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f5665;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sign a button {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0b132a;
+  background-color: transparent;
+  padding: 10px 45px;
+}
+
+.sign a:hover {
+  border: 1px solid #f53855;
+  border-radius: 50px;
+}
+
+.sign a button:hover {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f53855;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  background-color: #eeeff2;
+  margin-top: -9px;
+  transition: 2s;
+  position: relative;
+}
+
+/* ////////menu section/////// */
+.chap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 125px;
+}
+#first {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+  width: 555px;
+  height: 147px;
+  margin-bottom: 20px;
+}
+
+.chap:nth-child(2) {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  width: 555px;
+  height: 60px;
+}
+
+.chap a button {
+  padding: 17px 77px;
+  font-family: "Rubik";
+  background-color: transparent;
+  margin-left: -300px;
+  margin-top: 50px;
+  font-size: 20px;
+  border: 2px solid #f53838;
+  border-radius: 10px;
+}
+
+.chap a:hover {
+  background: #f53838;
+}
+
+.chap a button:hover {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: #f53838;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.div {
+  width: 0px;
+  height: 125.57px;
+  border: 2px solid #eeeff2;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.toqz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+
+.admin img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.admin {
+  background-image: url(../img/LaslesVPN/Icon/Rectangle\ 271.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+}
+
+.admin p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+.admin pre {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.strelka1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .strelka {
+  width: 400px;
+  height: 30px;
+} */
+
+#features h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  width: 383px;
+  height: 100px;
+}
+
+#p1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  width: 427px;
+  height: 60px;
+}
+.komp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px id;
+}
+/* ///////////// chose////////// */
+
+#chose {
+  background: #f8f7f7;
+  padding-top: 140px;
+}
+
+.soz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.soz h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+  width: 383px;
+  height: 50px;
+}
+
+.soz p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  width: 555px;
+  height: 60px;
+}
+
+.free {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fre1 {
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  width: 330px;
+  height: 760px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.band {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.band1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.btn h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+
+.btn h1 span {
+  font-size: 20px;
+}
+
+.btn a button {
+  border: 2px solid #f53838;
+  border-radius: 50px;
+  color: #f53838;
+  padding: 13px 70px;
+  background-color: transparent;
+}
+
+.butn {
+  background-color: transparent;
+  margin-top: 90px;
+}
+
+.butn2 {
+  background-color: transparent;
+  margin-top: 50px;
+}
+
+.btn a:hover {
+  background-color: #f53838;
+  border-radius: 50px;
+}
+
+.btn a button:hover {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.huge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.huge h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+  width: 383px;
+  height: 100px;
+}
+.huge p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  width: 555px;
+  height: 60px;
+}
+
+.huge img {
+  margin-top: 60px;
+}
+
+.netlix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.trusted h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+  width: 448px;
+  height: 100px;
+}
+
+.trusted p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  width: 555px;
+  height: 60px;
+  color: #4f5665;
+}
+
+.wiz1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 100px;
+}
+
+.wiz1 img {
+  width: 40px;
+  height: 40px;
+}
+
+.wiz1 h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0b132a;
+}
+
+.wiz1 h1 span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4f5665;
+  width: 200px;
+  height: 100px;
+}
+
+#star {
+  width: 25px;
+  height: 25px;
+}
+
+.wiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  width: 380px;
+  height: 230px;
+}
+
+.wiz:hover {
+  border: 2px solid #f53838;
+  border-radius: 10px;
+}
+.wiz p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  width: 340px;
+  height: 100px;
+  color: #0b132a;
+}
+
+.trusted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wez {
+  display: flex;
+  gap: 10px;
+}
+
+.bir {
+  width: 30px;
+  height: 15px;
+  background-color: #f53838;
+  border-radius: 10px;
+}
+
+.ikki {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #4f5665;
+}
+
+.nuqta {
+  display: flex;
+  gap: 10px;
+}
+
+.bos button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.bos button img {
+  color: #f53838;
+}
+
+.bos button img {
+  width: 30px;
+  height: 30px;
+}
+
+#wite {
+  display: none;
+}
+
+#witeong {
+  display: none;
+}
+.bos {
+  display: flex;
+  gap: 15px;
+}
+
+.bos button:hover {
+  background-color: #f53838;
+}
+
+.bos button img:hover {
+  display: none;
+}
+
+.bos button:hover {
+  #wite {
+    display: block;
+  }
+  #witeong {
+    display: block;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.kor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 930px;
+  margin-top: 90px;
+}
+
+.subs h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  width: 371px;
+  height: 80px;
+  color: #0b132a;
+}
+
+.subs p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  width: 410px;
+  height: 16px;
+  color: #4f5665;
+}
+
+.now a {
+  margin-right: 40px;
+}
+
+.now a button {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f53838;
+  padding: 17px 65px;
+  border: 2px solid #f53838;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.now a button:hover {
+  background: #f53838;
+  border-radius: 10px;
+  color: white;
+}
+
+.subs {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding-left: 15px;
+  width: 1200px;
+  border-radius: 10px;
+  height: 233px;
+  background-color: white;
+}
+
+.logo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo1 h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0b132a;
+}
+
+.logov p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  width: 340px;
+  height: 61px;
+}
+
+.logov {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 15px;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.face {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.face img {
+  background-color: #f53838;
+  border-radius: 50%;
+}
+
+.logov h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+.logov a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.futer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
